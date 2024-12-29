@@ -29,19 +29,19 @@
         }
     </script>
     <style>
-        .Garamond {
+        .garamond {
             font-family: "EB Garamond", serif;
-            font-weight: <weight>;
+            font-weight: weight;
         }
     </style>
 </head>
 
-<body>
+<body class="garamond">
     <!-- header section -->
-    <header>
+    <header class="bg-slate-200">
         <!-- navbar -->
-        <nav class="container mx-auto p-1 lg:p-8">
-            <div class="navbar bg-base-100">
+        <nav class=" mx-auto p-1 lg:p-8">
+            <div class="navbar  bg-slate-100 rounded-lg">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -114,18 +114,19 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div>
-            <div class="hero min-h-screen"
-                style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);">
+        <div class="px-8 my-8 ">
+            <div class="hero h-[550px] rounded-xl" style="background-image: url(images/banner.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-neutral-content text-center">
                     <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p class="mb-5">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-8">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                         </p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <div class="">
+                            <input class="border-none p-3 rounded-lg mb-3" type="text" placeholder="Search your services">
+                            <button class="btn bg-bg-btn border-none">Search</button>
+                        </div>
                     </div>
                 </div>
             </div>
